@@ -1,0 +1,185 @@
+/* style for login.html */
+body{
+    background:#F2F2F2;
+    font-family: 'Roboto';
+}
+
+.form-section{
+    width: 30%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 5% 35%;
+    position: fixed;
+}
+
+.form-section h4{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(37, 29, 29) !important;
+}
+
+.logo{
+    width:40px;
+    height: 40px;
+    margin: 0 45%;
+    padding-bottom: 50px;
+}
+
+.form-input{
+    width: 70%;
+    margin: 0 15%;
+    height: 20px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(219, 212, 212);
+    color: gray !important;
+}
+.form-input:focus{
+    outline: none;
+}
+.icon{
+    color: gray;
+    position: relative;
+    bottom: 85px;
+    left: 350px;
+}
+.btn{
+    background-color: #68C3F7;
+    border: None;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    width: 70%;
+    margin: 0 15%;
+    height: 50px;
+}
+.btn:focus{
+    outline: none;
+}
+.text{
+    padding-top: 120px;
+    width: 50%;
+    margin: 0 25%;
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+@media(max-width:1024px){
+    .form-section{
+        width: 50%;
+        margin: 5% 25%;
+    }
+    .text{
+        width: 80%;
+        padding-top: 50px;
+        margin: 0 10%;
+    }
+}
+
+@media(max-width:790px){
+    .form-section{
+        width: 80%;
+        margin: 10% 10%;
+    }
+    .text{
+        width: 70%;
+        padding-top: 50px;
+        margin: 0 15%;
+    }
+}
+
+
+/* style for page.html */
+.nav-bar{
+    background-color: #30abf1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 60px;
+}
+.left img{
+    height: 25px;
+    width: 25px;
+    float: left;
+    padding: 15px 10px 20px 50px;
+}
+
+.left h4{
+    float: left;
+    color: white;
+    font-size: 15px;
+    padding: 0 0 30px 10px;
+}
+.right{
+    float: right;
+    padding: 10px 40px 10px 0;
+}
+.right button{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-weight: 550;
+    outline: none;
+}
+.heading{
+    font-weight: none;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.scrape-area{
+    background-color:rgb(224, 220, 220);
+    width: 96%;
+    margin: 0 2%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.small-box{
+    background-color: rgb(204, 204, 204);
+    padding: 5px 7px;
+    width: 1%;
+
+}
+.scrape-area button{
+    float: right;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 18px;
+    margin-right: 25px;
+    outline: none;
+
+}
+.child-link{
+    background-color: rgb(230, 205, 205);
+    width: 96%;
+    margin: 0 2%;
+    padding-left: 15px;
+}
+.child-link p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.parent-link{
+    font-size: 20px;
+    padding-left: 2%;
+}
+.progress-bar{
+    background-color: rgb(230, 205, 205);
+    width: 96%;
+    margin: 0 2%;
+}
+.progress-bar p{
+    padding: 25px 0;
+    text-align: center;
+}
